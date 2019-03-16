@@ -160,7 +160,6 @@ class performReq(Thread):
 def lauchThreads(url,thrd,data,acc,method,proxy,custom,words,sleep,json,excp0,excp1):
 	global counter
 	counter = []
-	resultList = []
 	counter.append(0)
 	for i in range(0,len(words)-1):
 		try:
